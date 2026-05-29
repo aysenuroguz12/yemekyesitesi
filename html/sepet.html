@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sepetim</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        
+        <a href="index.html">Anasayfa</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="sepet.html">Sepet</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>Sepetiniz</h1>
+
+        <table class="sepet-tablo">
+            <thead>
+                <tr>
+                    <th>Ürün</th>
+                    <th>Fiyat</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody id="sepetTabloGövde">
+            </tbody>
+        </table>
+
+        <div class="sepet-ozet">
+            <h3 id="toplamYazi">Toplam: 0 TL</h3>
+            
+            <button id="kuponBtn" class="sepete-ekle">Kupon Kazan</button>
+            <p id="kuponMesaj"></p>
+            <button id="satinalBtn" class="sepete-ekle">Satın Al</button>
+        </div>
+
+    </div>
+
+    <script src="../js/myscript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödeme Sayfası</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    
+    <nav class="navbar">
+      
+        <a href="index.html">Anasayfa</a>
+        <a href="urunler.html">Ürünler</a>
+        <a href="sepet.html">Sepetim</a>
+        <a href="iletisim.html">İletişim</a>
+    </nav>
+
+    <div class="container">
+
+        <h1>Ödeme Sayfası</h1>
+
+        <form class="odeme-form" id="odemeFormu">
+
+            <label for="adSoyad">Ad Soyad</label>
+            <input type="text" id="adSoyad" >
+
+            <label for="kartNo">Kart Numarası</label>
+            <input type="text" id="kartNo" >
+
+            <div class="kart-detay">
+                <div>
+                    <label for="tarih">Son Kullanma</label>
+                    <input type="text" id="tarih" >
+                </div>
+                <div>
+                    <label for="cvc">CVC</label>
+                    <input type="text" id="cvc" >
+                </div>
+            </div>
+
+         
+            <button type="submit" class="sepete-ekle">Ödemeyi Tamamla</button>
+
+
+        </form>
+
+    </div>
+
+    
+    <script src="../js/myscript.js"></script>
+</body>
+
+</html>
